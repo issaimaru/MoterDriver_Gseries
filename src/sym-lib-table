@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DriveUnit_G-series(ver2.0)-rescue")(type "KiCad")(uri "${KIPRJMOD}/DriveUnit_G-series(ver2.0)-rescue.kicad_sym")(options "")(descr ""))
+)

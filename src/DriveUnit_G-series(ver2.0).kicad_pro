@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -166,9 +172,36 @@
       ],
       "track_widths": [
         0.0,
-        0.1524
+        0.1,
+        0.1524,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0
       ],
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.1
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -183,7 +216,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "(KiCad)DriveUnit_B-series(ver2.0).kicad_pro",
+    "filename": "DriveUnit_G-series(ver2.0).kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -418,7 +451,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "netlists/DriveUnit_G-series(ver2.0).net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
